@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+  width: 100%;
+  /* height: 800vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 255, 0.822);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* color: white; */
+}
+
+.logo {
+  margin-left: 250px;
+}
+
+.nav {
+  width: 750px;
+  /* background-color: black; */
+}
+
+.nav ul {
+  /* margin-right: 250px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav ul li {
+  list-style-type: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav ul li button {
+  width: 150px;
+  height: 50px;
+  box-shadow: 1px 1px 2px 2px orange;
+  border-radius: 5px;
+  border: 5px;
+  background-color: rgba(0, 0, 255, 0.822);
+}
+
+.nav ul li a:hover {
+  color: orange;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+.introduction {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(223, 231, 236);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  margin-left: 250px;
+  margin-bottom: 40px;
+  font-size: 17px;
+  color: rgb(236, 171, 48);
+}
+
+.intro h1 span {
+  color: rgb(10, 135, 238);
+  font-weight: bold;
+}
+
+.intro p {
+  color: rgb(128, 128, 128);
+  font-size: 20px;
+}
+
+.intro button {
+  width: 180px;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 5px;
+  background: rgb(10, 135, 238);
+  color: white;
+}
+
+.image {
+  margin-right: 250px;
+}
+
+.aboutMySelf {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.mySelf {
+  color: rgb(12, 97, 167);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.goalsAndValues {
+  font-size: 20px;
+ font-weight: bold; 
+}
+
+.goalsAndValues h1 {
+  color: rgb(9, 89, 155);
+}
+
+.goalsAndValues h1 span {
+  color: rgb(250, 164, 3);
+}
+
+.goalsAndValues h3 {
+  color: rgb(128, 128, 128);
+}
+
+.goalsAndValues button {
+  width: 180px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  background: rgb(10, 135, 238);
+  color: white;
+  margin: auto;
+}
+
+.textImagesContainer {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.continuousLearning{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contiLearn {
+  margin-left: 180px;
+}
+
+.contiLearn h2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(230, 209, 170);
+  color: orange;
+  text-align: center;
+  font-size: 30px;
+}
+
+.contiLearn h1 {
+  color: steelblue;
+  font-weight: bold;
+}
+
+.contiLearn p {
+  font-size: 20px;
+  color: gray;
+}
+
+.Submit_Image {
+  margin-right: 260px;
+}
+
+.careerAdvancement {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Data_Image {
+  margin-left: 150px;
+}
+
+.carAdvance {
+  margin-right: 300px;
+}
+
+.carAdvance h2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(180, 201, 218);
+  color: rgb(11, 139, 243);
+  text-align: center;
+  font-size: 30px;
+}
+
+.carAdvance h1 {
+  color: steelblue;
+  font-weight: bold;
+}
+
+.carAdvance p {
+  font-size: 18px;
+  color: gray;
+}
+
+.healthAndWellness {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.healthy {
+  margin-left: 160px;
+}
+
+.healthy h2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(240, 209, 151);
+  color: orange;
+  text-align: center;
+  font-size: 30px;
+}
+
+.healthy h1 {
+  color: steelblue;
+  font-weight: bold;
+}
+
+.healthy p {
+  font-size: 19px;
+  color: gray;
+}
+
+.Short_Image {
+  margin-right: 300px;
+}
+
+.financial-Independence{
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.Application_Image {
+  margin-left: 160px;
+}
+
+.finances {
+  margin-right: 320px;
+}
+
+.finances h2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(165, 191, 212);
+  color: rgb(19, 127, 216);
+  text-align: center;
+  font-size: 30px;
+}
+
+.finances h1 {
+  color: steelblue;
+  font-weight: bold;
+}
+
+.finances p {
+  font-size: 20px;
+  color: gray;
+}
+
+.impactfulContribution {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.impactContri {
+  margin-left: 180px;
+}
+
+.impactContri h2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(245, 215, 159);
+  color: orange;
+  text-align: center;
+  font-size: 30px;
+} 
+
+.impactContri h1 {
+  color: steelblue;
+  font-weight: bold;
+}
+
+.impactContri p {
+  font-size: 20px;
+  color: gray;
+}
+
+.Select_Image {
+  margin-right: 280px;
+}
+
+.meContainer {
+  margin-top: 30px;
+  background-color: rgb(223, 231, 236);
+}
+
+.earlyLife {
+  margin-left: 20px;
+}
+
+.earlyLife h1 {
+  color: rgb(10, 135, 238);
+  font-weight: bold;
+}
+
+.earlyLife p {
+  margin-top: 15px;
+  /* color: rgb(128, 128, 128); */
+  font-size: 17px;
+}
+
+.careerAndAchievement {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.careerAndAchievement h1 {
+  color: rgb(10, 135, 238);
+  font-weight: bold;
+}
+
+.careerAndAchievement p {
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.personalLife {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.personalLife h1 {
+  color: rgb(10, 135, 238);
+  font-weight: bold;
+}
+
+.personalLife p {
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.laterLife {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.laterLife h1 {
+  color: rgb(10, 135, 238);
+  font-weight: bold;
+}
+
+.laterLife p {
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.conclusion {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.conclusion h1 {
+  color: rgb(10, 135, 238);
+  font-weight: bold;
+}
+
+.conclusion p {
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+#scrollToTop {
+  width: 100%;
+  height: 25vh;
+  /* margin-top: 20px; */
+  background-color: rgb(223, 231, 236);
+}
+
+#scrollToTop button {
+  width: 50%;
+  height: 40px;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 50px;
+  color: whitesmoke;
+  box-shadow: 1px 1px 2px 2px orange;
+  border-radius: 5px;
+  border: 5px;
+  background-color: rgba(0, 0, 255, 0.822);
+}
+
+#scrollToTop button:hover {
+  color: rgb(177, 121, 17);
+  background-color: rgb(12, 12, 131);
+
+}
